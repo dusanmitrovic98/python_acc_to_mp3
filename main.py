@@ -16,3 +16,4 @@ def convert_acc_to_mp3(input_folder, output_folder):
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
+    # Iterate through all files in the input folder
