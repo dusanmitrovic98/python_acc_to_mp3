@@ -20,3 +20,4 @@ def convert_acc_to_mp3(input_folder, output_folder):
     for filename in os.listdir(input_folder):
         print(filename)
         
+        acc_path = os.path.join(input_folder, filename)
