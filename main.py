@@ -23,3 +23,4 @@ def convert_acc_to_mp3(input_folder, output_folder):
         acc_path = os.path.join(input_folder, filename)
 
         # Extract the name without extension
+        file_name_without_extension = os.path.splitext(filename)[0]
