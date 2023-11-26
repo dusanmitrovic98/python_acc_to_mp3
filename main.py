@@ -31,3 +31,4 @@ def convert_acc_to_mp3(input_folder, output_folder):
         print(f"Converting: {acc_path} to {mp3_path}")
 
         try:
+            # Use FFmpeg to convert ACC to MP3
