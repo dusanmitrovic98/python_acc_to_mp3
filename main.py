@@ -12,3 +12,4 @@ def convert_acc_to_mp3(input_folder, output_folder):
         input_folder (str): The path to the folder containing ACC files.
         output_folder (str): The path to the folder where the converted MP3 files will be saved.
     """
+    # Ensure the output folder exists
