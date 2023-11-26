@@ -41,3 +41,4 @@ def convert_acc_to_mp3(input_folder, output_folder):
 if __name__ == "__main__":
     if len(sys.argv) != 3:
         print("Usage: python script.py input_folder output_folder")
+        sys.exit(1)
