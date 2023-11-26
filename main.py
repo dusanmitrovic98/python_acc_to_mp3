@@ -35,3 +35,4 @@ def convert_acc_to_mp3(input_folder, output_folder):
             subprocess.run(['ffmpeg', '-i', acc_path, mp3_path], check=True)
             print(f"Converted: {filename} to {file_name_without_extension}.mp3")
         except subprocess.CalledProcessError as e:
+            print(f"Error converting {filename}: {e}")
