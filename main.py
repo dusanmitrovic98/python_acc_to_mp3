@@ -43,3 +43,4 @@ if __name__ == "__main__":
         print("Usage: python script.py input_folder output_folder")
         sys.exit(1)
 
+    input_folder = sys.argv[1]
