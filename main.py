@@ -44,3 +44,4 @@ if __name__ == "__main__":
         sys.exit(1)
 
     input_folder = sys.argv[1]
+    output_folder = sys.argv[2]
