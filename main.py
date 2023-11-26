@@ -37,3 +37,4 @@ def convert_acc_to_mp3(input_folder, output_folder):
         except subprocess.CalledProcessError as e:
             print(f"Error converting {filename}: {e}")
 
+
