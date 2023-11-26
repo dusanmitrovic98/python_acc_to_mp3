@@ -47,3 +47,4 @@ if __name__ == "__main__":
     output_folder = sys.argv[2]
 
     convert_acc_to_mp3(input_folder, output_folder)
+
