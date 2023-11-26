@@ -29,3 +29,4 @@ def convert_acc_to_mp3(input_folder, output_folder):
         mp3_path = os.path.join(output_folder, f"{file_name_without_extension}.mp3")
 
         print(f"Converting: {acc_path} to {mp3_path}")
+
