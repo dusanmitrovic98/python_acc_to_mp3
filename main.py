@@ -32,3 +32,4 @@ def convert_acc_to_mp3(input_folder, output_folder):
 
         try:
             # Use FFmpeg to convert ACC to MP3
+            subprocess.run(['ffmpeg', '-i', acc_path, mp3_path], check=True)
