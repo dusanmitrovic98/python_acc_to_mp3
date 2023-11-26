@@ -39,3 +39,4 @@ def convert_acc_to_mp3(input_folder, output_folder):
 
 
 if __name__ == "__main__":
+    if len(sys.argv) != 3:
