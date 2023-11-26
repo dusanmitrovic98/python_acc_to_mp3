@@ -38,3 +38,4 @@ def convert_acc_to_mp3(input_folder, output_folder):
             print(f"Error converting {filename}: {e}")
 
 
+if __name__ == "__main__":
